@@ -11,7 +11,6 @@ def syntaxis(guess):
 
 main_menu = print("Hello! Try to guess the number that I selected. Press 0 to leave the game")
 number = random.choice(list_of_numbers)
-print(number)
 global guess
 guess = input()
 syntaxis(guess)
